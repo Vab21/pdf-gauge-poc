@@ -1,0 +1,74 @@
+section.page-section{
+    columns: 2;
+    column-fill: auto;
+    page-break-after: always;
+}
+section.category-main{
+    -webkit-column-break-after: always;
+}
+section.category-details{
+    /* page-break-after: auto; */
+    /* -webkit-column-break-after: always; */
+    
+}
+section.graph-details {
+    display: flex;
+    justify-content: space-between;
+    page-break-inside: avoid;
+}
+.gauge-area .label {
+    text-align: center;
+    background: #cccccc;
+    margin-top: -5px;
+    page-break-inside: avoid;
+}
+section.canvas-area {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    border: 1px solid #000000;
+    padding: 10px;
+    page-break-inside: avoid;
+}
+.label {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.value {
+    font-weight: 700;
+    font-size: 18px;
+}
+.unit {
+    font-size: 11px;
+}
+.reference h5 {
+    margin: 0;
+    page-break-inside: avoid;
+}
+section.colored-text.green {
+    color: green;
+    padding: 20px 0;
+}
+.reference p {
+    margin: 0;
+    font-size: 10px;
+}
+.maintain-improve h2{
+    page-break-inside: avoid;
+}
+.maintain-improve ul{
+    padding: 0;
+}
+.maintain-improve li:first-child {
+    border-top: 2px solid #000000;
+}
+
+.maintain-improve li {
+    list-style: none;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 5px 5px 5px 30px;
+}
+.maintain-improve li:last-child {
+    border-bottom: 2px solid #000000;
+}
